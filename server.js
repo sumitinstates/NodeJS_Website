@@ -1,8 +1,8 @@
-var express = require ('express');
+var express = require ('express'); //import the express framework
 var uc = require('upper-case');
-var app = express();
-var path = require('path');
-var router = express.Router();
+var app = express();               
+var path = require('path');        // path module is needed to handle file and path directories
+var router = express.Router();     
 
 const port = 3001;
 
